@@ -1,0 +1,32 @@
+# Mac 
+.DS_Store
+
+# Netlify 
+*.log
+.cache
+src/.temp
+.netlify
+
+# Node JS
+node_modules
+dist
+.env
+.env.*
+
+# Prepros Compiler Configuration (v6, v7)
+prepros-6.config
+prepros.config
+
+# Working Copy
+localStorage.json
+
+# Nova Editor
+.nova/*
+
+# VS Code Project Files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace

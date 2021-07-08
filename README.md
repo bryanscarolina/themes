@@ -1,4 +1,4 @@
-# Custom Color Themes
+# Custom Themes for Drafts, Ulysses, CodeRunner, Typora
 
 A selection of custom themes I've made for specific apps I use. 
 

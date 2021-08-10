@@ -9,11 +9,11 @@
 	<key>author</key>
 	<string>Bryan Smith</string>
 	<key>name</key>
-	<string>BR Sunday Morning</string>
+	<string>BR Monday</string>
 	<key>comment</key>
 	<string>https:&#x2f;&#x2f;github.com&#x2f;bryanscarolina&#x2f;themes</string>
 	<key>semanticClass</key>
-	<string>theme.light.br_sundays</string>
+	<string>theme.light.br_sunday_morning</string>
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>gutterSettings</key>
@@ -41,11 +41,11 @@
 				<key>foreground</key>
 				<string>#1D2229</string>
 				<key>invisibles</key>
-				<string>#CBCCCB</string>
+				<string>#D8D8D8</string>
 				<key>lineHighlight</key>
-				<string>#CBCCCB</string>
+				<string>#D8D8D8</string>
 				<key>selection</key>
-				<string>#F5EF34CC</string>
+				<string>#BDD2F0</string>
 			</dict>
 		</dict>
 		<dict>
@@ -67,9 +67,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#9E9E9E</string>
+				<string>#AAAAAA</string>
 				<key>background</key>
-				<string>#F0F0F0</string>
+				<string>#FAFAFA00</string>
 			</dict>
 		</dict>
 		<dict>
@@ -113,7 +113,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#3e8669ff</string>
+				<string>#106EE8</string>
 			</dict>
 		</dict>
 		<dict>
@@ -137,7 +137,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#005be3ff</string>
+				<string>#3E8669</string>
 			</dict>
 		</dict>
 		<dict>
@@ -170,7 +170,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#6148e0ff</string>
+				<string>#1B22D4</string>
 			</dict>
 		</dict>
 		<dict>
@@ -194,7 +194,7 @@
 				<key>foreground</key>
 				<string>#6455E3</string>
 				<key>background</key>
-				<string>#6455E30D</string>
+				<string>#6455E305</string>
 			</dict>
 		</dict>
 		<dict>
@@ -205,7 +205,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#e37000ff</string>
+				<string>#F07C08</string>
 			</dict>
 		</dict>
 		<dict>
@@ -216,7 +216,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#e37000ff</string>
+				<string>#F07C08</string>
 			</dict>
 		</dict>
 		<dict>
@@ -227,7 +227,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#e37000ff</string>
+				<string>#F07C08</string>
 			</dict>
 		</dict>
 		<dict>
@@ -238,7 +238,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#e37000ff</string>
+				<string>#F07C08</string>
 			</dict>
 		</dict>
 		<dict>
@@ -260,7 +260,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#e36400ff</string>
+				<string>#F07C08</string>
 			</dict>
 		</dict>
 		<dict>
@@ -282,7 +282,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#6148e0ff</string>
+				<string>#5638F0</string>
 			</dict>
 		</dict>
 		<dict>
@@ -293,7 +293,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#e37000ff</string>
+				<string>#E37000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -317,7 +317,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#e36400ff</string>
+				<string>#E36400</string>
 			</dict>
 		</dict>
 		<dict>
@@ -330,7 +330,7 @@
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#e36400ff</string>
+				<string>#F07C08</string>
 			</dict>
 		</dict>
 		<dict>
@@ -376,7 +376,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#e36400ff</string>
+				<string>#E36400</string>
 			</dict>
 		</dict>
 		<dict>
@@ -398,7 +398,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#e36400ff</string>
+				<string>#F07C08</string>
 			</dict>
 		</dict>
 		<dict>

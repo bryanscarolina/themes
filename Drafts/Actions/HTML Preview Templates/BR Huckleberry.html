@@ -5,59 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style>
       html {
-        color: #333333;
+        color: #1d2229;
         background-color: #ffffff;
-        font-family: "Cadiz Trial";
-        font-size: 100%;
+        font-family: "BR Hendrix", sans-serif;
+        font-size: 16px;
         max-width: 980px !important;
         padding: 1em;
         line-height: 1.5;
       }
 
       body {
-        font-family: "Cadiz Trial";
+        font-family: "BR Hendrix", sans-serif;
         font-weight: normal;
         font-style: normal;
-        color: #333333;
+        color: #1d2229;
         background-color: #fff;
-        font-size: 18px;
-        line-height: 1.6;
-        margin: 15px;
-        padding: 30px;
+        font-size: 16px;
+        line-height: 1.5;
       }
-    
+
       a {
-        color: #3276dc;
+        color: #256cd7;
         text-decoration: none;
         background-color: transparent;
-        overflow-wrap: break-word;
-        word-wrap: break-word;
-        word-break: break-word;
-        hyphens: auto;
       }
-    
+
       a:hover {
         text-decoration: underline;
-        color: #2e6cc7;
+        color: #195fc8;
       }
-    
-      b,
-      strong {
+
+      b, strong {
         font-weight: bold;
       }
-    
+
       img {
-        border-radius: 3px;
+        border: 0;
         max-width: 90%;
+        border-radius: 3px;
         height: auto;
-        box-shadow: rgba(30,40,109,.1) 0 20px 35px;
       }
-    
+
       body {
         margin: 0;
         padding: 1em;
       }
-    
+
       h1,
       h2,
       h3,
@@ -66,83 +59,83 @@
       h6 {
         font-weight: bold;
       }
-    
+
       h1 {
-        color: #202020;
-        font-size: 32px;
+        color: #1d2229;
+        font-size: 30px;
         line-height: 40px;
         margin: 0 0 16px;
         padding: 0 0 9px;
       }
-    
+
       h2 {
-        color: #202020;
-        font-size: 24px;
+        color: #1d2229;
+        font-size: 26px;
         line-height: 30px;
         padding: 0 0 7px;
       }
-    
+
       h3 {
-        color: #202020;
-        font-size: 20px;
+        color: #1d2229;
+        font-size: 22px;
         line-height: 25px;
       }
-    
+
       h4 {
-        color: #202020;
-        font-size: 18px;
+        color: #1d2229;
+        font-size: 20px;
         line-height: 20px;
         margin: 24px 0 16px;
         padding: 0;
       }
-    
+
       h5 {
-        color: #202020;
-        font-size: 14px;
+        color: #1d2229;
+        font-size: 18px;
         line-height: 17px;
       }
-    
+
       h6 {
-        color: #202020;
-        font-size: 14px;
+        color: #1d2229;
+        font-size: 16px;
         line-height: 17px;
       }
-    
+
       @media (max-device-width: 480px) {
       }
-    
+
       @media (min-device-width: 481px) {
         body {
           margin: auto;
           max-width: 600px;
         }
       }
-    
+
       hr {
         height: 0.2em;
         border: 0;
         color: #cccccc;
         background-color: #cccccc;
       }
-    
+
       table {
         margin: 1em 0;
         border: 1px solid #aaa;
         border-collapse: collapse;
       }
-    
+
       th {
         padding: 0.25em 0.5em;
         background: #efefef;
         border: 1px solid #ccc;
       }
-    
+
       td {
         padding: 0.25em 0.5em;
         border: 1px solid #ccc;
-        font-family: "Code Saver", monospace;
+        font-family: Inconsolata, monospace;
       }
-    
+
       p,
       blockquote,
       ul,
@@ -153,46 +146,46 @@
       pre {
         margin: 1em 0;
       }
-    
+
       pre {
-        padding: 4px;
-        margin-bottom: 4px;
+        padding: 16px;
+        margin-bottom: 16px;
         overflow: auto;
-        font-size: 92%;
+        font-family: Inconsolata, monospace;
+        font-size: 85%;
         line-height: 1.45;
-        background-color: #fff7f3;
         border-radius: 3px;
+        border: 1px solid #aaa;
         word-wrap: normal;
       }
-    
+
       code {
-        font-family: "Code Saver", monospace;
-        font-size: 92%;
+        font-family: Inconsolata, monospace;
+        font-size: 85%;
       }
-    
+
       pre > code {
         padding: 0;
         margin: 0;
-        font-size: 92%;
-        background: transparent;
-        white-space:pre-wrap; 
-        word-wrap:break-word; 
+        font-size: 100%;
+        white-space: pre;
+        background: #f1f4fe;
         border: 0;
       }
-    
+
       blockquote {
-        font-family: "Code Saver", monospace;
-        color: #5e6e85;
-	   border-left: 2px solid #5e6e85;
-        margin: 12px;
-        padding:0 20px;
+        border-radius: 4px;
+        padding: 12px 16px;
+        background-color: #f1f4fe;
+        font-family: Inconsolata, monospace;
+        color: #252d34;
       }
-    
+
       blockquote code {
         background-color: transparent;
       }
     </style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/zenburn.min.css" integrity="sha512-JPxjD2t82edI35nXydY/erE9jVPpqxEJ++6nYEoZEpX2TRsmp2FpZuQqZa+wBCen5U16QZOkMadGXHCfp+tUdg==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="http://cdn.bootcss.com/highlight.js/9.9.0/styles/tomorrow.min.css"/>
     <script src="http://cdn.bootcss.com/highlight.js/9.9.0/highlight.min.js"></script>
     <script>
       hljs.initHighlightingOnLoad();

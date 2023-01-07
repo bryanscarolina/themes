@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html dir="auto">
+    
+<!-- Custom Preview CSS for Drafts -->
+<!-- Created by Bryan Smith. -->
+<!-- BR Lingo -->
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+<!-- COMMENT THE BELOW 2 LINES OUT IF CODE HIGHLIGHTING IS NOT NEEDED -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.2/styles/color-brewer.min.css" />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.2/highlight.min.js" />
+    
+<!-- GOOGLE FONTS PRECONNECT – ONLY COMMENT OUT IF YOU'RE NOT USING GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<!-- INTER FONT WITH CSS, BUT SERVED FROM RSMS INSTEAD OF GOOGLE -->
+    <!-- <link rel="preconnect" href="https://rsms.me/">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css"> 
+    /* CSS */
+        :root { 
+            font-family: 'Inter', sans-serif; 
+        }
+        @supports (font-variation-settings: normal) {
+        :root { 
+            font-family: 'Inter var', sans-serif; 
+        }
+    }
+-->
+
+<!-- SANS: KARLA AND MONOSPACE: INCONSOLATA -->
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600;700;800&family=Karla:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg-color: #fafafa;
+            --control-text-color: #323337;
+        }
+
+        html {
+            color: #323337;;
+            background-color: #fffeff;
+            font-family: Karla, -apple-system, system-ui, BlinkMacSystemFont, "Helvetica Neue", Arial, "Segoe UI", Roboto, Oxygen, sans-serif;
+            font-size: 16px;
+            max-width: 980px !important;
+            padding: 1em;
+            line-height: 1.5;
+      }
+        
+        body, h1, h2, h3, h4, h5, h6, a, p {
+            font-family: Karla, -apple-system, system-ui, BlinkMacSystemFont, "Helvetica Neue", Arial, "Segoe UI", Roboto, Oxygen, sans-serif;
+        }
+        
+        blockquote, code, tt, samp, kbd, pre {
+            font-family: Inconsolata, ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro","Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+            -webkit-font-feature-settings: "tnum" 1, "zero" 1;
+            -moz-font-feature-settings: "tnum" 1, "zero" 1;
+            -ms-font-feature-settings: "tnum" 1, "zero" 1;
+            font-feature-settings: "tnum" 1, "zero" 1;
+}
+        }
+
+        body {
+            color: #323337;
+            line-height: 1.6;   
+            margin: 0;
+            padding: 3em;
+            font-size: 16px;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: #1d1e20;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+            line-height: 1.6;
+            cursor: text;
+            font-feature-settings: "tnum";
+        }
+
+        .md-toc {
+            font-weight: 500;
+            line-height: 1.2;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            cursor: pointer;
+            font-feature-settings: "tnum";
+        }
+
+        h1:hover a.anchor,
+        h2:hover a.anchor,
+        h3:hover a.anchor,
+        h4:hover a.anchor,
+        h5:hover a.anchor,
+        h6:hover a.anchor {
+            text-decoration: none;
+        }
+
+        h1 tt,
+        h1 code {
+            font-size: inherit;
+        }
+
+        h2 tt,
+        h2 code {
+            font-size: inherit;
+        }
+
+        h3 tt,
+        h3 code {
+            font-size: inherit;
+        }
+
+        h4 tt,
+        h4 code {
+            font-size: inherit;
+        }
+
+        h5 tt,
+        h5 code {
+            font-size: inherit;
+        }
+
+        h6 tt,
+        h6 code {
+            font-size: inherit;
+        }
+
+        h1 {
+            font-size: 2.25em;
+            padding-bottom: .1em;
+            line-height: 1.5;
+        }
+
+        h1 strong {
+            font-weight: 800;
+        }
+
+        li.active {
+            background-color: #000;
+            color: #fff;
+        }
+
+        h3 {
+            font-size: 1.5em;
+            line-height: 1.43;
+        }
+
+        h4 {
+            font-size: 1.25em;
+        }
+
+        h5 {
+            font-size: 1em;
+            line-height: 2;
+        }
+
+        h5 strong {
+            background-color: #3b78e7;
+            color: white;
+            font-weight: 800;
+            width: 24px;
+            height: 24px;
+            display: inline-block;
+            text-align: center;
+            line-height: 24px;
+            padding: 0;
+            border-radius: 3px;
+        }
+
+        h6 {
+            font-size: 1em;
+        }
+
+        p,
+        blockquote,
+        ul,
+        ol,
+        dl,
+        table {
+            margin: 0.8em 0;
+        }
+
+        li>ol,
+        li>ul {
+            margin: 0 0;
+        }
+
+        hr {
+            height: 2px;
+            padding: 0;
+            margin: 16px 0;
+            background-color: #e7e7e7;
+            border: 0 none;
+            overflow: hidden;
+            box-sizing: content-box;
+        }
+
+        li p.first {
+            display: inline-block;
+        }
+
+        ul,
+        ol {
+            padding-left: 30px;
+        }
+
+        ul:first-child,
+        ol:first-child {
+            margin-top: 0;
+        }
+
+        ul:last-child,
+        ol:last-child {
+            margin-bottom: 0;
+        }
+
+        a>span>code {
+            color: #3b78e7 !important;
+            text-decoration: none !important;
+        }
+
+        blockquote {
+            border-radius: 4px;
+            padding: 12px 16px;
+            background-color: #f4f7f8;
+            color: #252d34;
+        }
+
+        blockquote code {
+            background-color: #f4f7f8;
+            border-radius: 4px;
+            padding: 1px 2px 1px 2px;
+        }
+
+        h2:hover:before,
+        h1:hover:before,
+        h3:hover:before {
+            content: "#";
+            width: 0px;
+            position: absolute;
+            left: -24px;
+            opacity: 0.1;
+        }
+
+        blockquote blockquote {
+            padding-right: 0;
+        }
+
+        table {
+            padding: 0;
+            word-break: initial;
+        }
+
+        table tr {
+            border-top: 1px solid #dfe2e5;
+            margin: 0;
+            padding: 0;
+        }
+
+        table tr:nth-child(2n),
+        thead {
+            background-color: #f8f8f8;
+        }
+
+        table tr th {
+            font-weight: bold;
+            border: 1px solid #dfe2e5;
+            border-bottom: 0;
+            margin: 0;
+            padding: 6px 13px;
+        }
+
+        table tr td {
+            border: 1px solid #dfe2e5;
+            margin: 0;
+            padding: 6px 13px;
+        }
+
+        table tr th:first-child,
+        table tr td:first-child {
+            margin-top: 0;
+        }
+
+        table tr th:last-child,
+        table tr td:last-child {
+            margin-bottom: 0;
+        }
+
+        code,
+        tt {
+            font-size: 15px;
+            border-radius: 4px;
+            padding: 1px 2px 1px 2px;
+        }
+
+        code {
+            font-size: 15px;
+            color: #b33617;
+            font-weight: 500;
+            background-color: #f1f4fe;
+            padding: 1px 2px 1px 2px;
+        }
+
+        kbd {
+            display: inline-block;
+            padding: 3px 5px;
+            font-size: 14px;
+            line-height: 10px;
+            color: #555;
+            vertical-align: middle;
+            background-color: #fcfcfc;
+            border: solid 1px #ccc;
+            border-bottom-color: #bbb;
+            border-radius: 3px;
+            box-shadow: inset 0 -1px 0 #bbb;
+          }
+
+        mark {
+            border-radius: 4px;
+            color: #141001;
+            font-weight: inherit;
+            background-color: #ffde67;
+            padding-left: 4px;
+            padding-right: 4px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            margin-left: 2px;
+            margin-right: 2px;
+        }
+
+        del {
+            border-radius: 4px;
+            color: #d4d4d4;
+            font-weight: inherit;
+            background-color: #d4d4d430;
+            padding-left: 4px;
+            padding-right: 4px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            margin-left: 2px;
+            margin-right: 2px;
+            text-decoration-color: #d4d4d4;
+        }
+
+        /* h1 strong, h2 strong, h3 strong, h4 strong, h6 strong, .md-toc strong{
+    font-weight: 800;
+    border-radius: 4px;
+    background-color: #f1f3f4;
+} */
+
+        a>span>code,
+        a>code,
+        a code {
+            color: #9e3812 !important;
+            text-decoration: none !important;
+            background-color: #f1f4fe !important;
+        }
+
+        a {
+            text-decoration: none !important;
+            border-bottom: 2px solid #2784f0;
+            transition: all .2s;
+        }
+
+        a:hover {
+            border-bottom: 2px solid #227ce3;
+            transition: all .2s;
+        }
+
+        img {
+            width: 90%;
+            height: auto;
+            max-width: 95%;
+            text-align: center;
+            border-radius: 3px;
+            box-shadow: rgba(0, 10, 30, .2) 0 20px 40px 0;
+            padding: 2px 0px 0px 4px;
+        }
+
+        blockquote>h4,
+        blockquote>h5,
+        blockquote>h6 {
+            font-size: 1em;
+            columns: inherit;
+        }
+
+        blockquote>h4::before {
+            width: 24px;
+            content: "\f097";
+            display: inline-block;
+            font: normal normal normal 14px/1 FontAwesome2;
+            font-size: 1em;
+            text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        blockquote>h5::before {
+            width: 32px;
+            content: "e.g.";
+            display: inline-block;
+            font-style: italic;
+            font-size: 1.2em;
+            text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            opacity: 0.5;
+        }
+
+        blockquote>h6::before {
+            width: 24px;
+            content: "\f27b";
+            display: inline-block;
+            font: normal normal normal 14px/1 FontAwesome2;
+            font-size: 1em;
+            text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            columns: inherit;
+        }
+
+        .ol-list {
+            border: 1px solid rgb(238, 238, 238);
+            border-radius: 4px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-right: 12px;
+        }
+
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.2/styles/color-brewer.min.css"
+        integrity="sha512-1aw0ViQEscq+eL+LKJ0OPpL4ztp5rUjlkaeNm/jtN3Yr1aaLy77xGRfTXo4HIlkQGqLRgGiZ2JZCUJ6UBGfmpQ=="
+        crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.2/highlight.min.js"
+        integrity="sha512-8DnqlIcZT5O7kn55WxWs0PnFyhwCqVEnsDpyHqcadSNtP0eqae406JmIoo2cXT5A42jnlcCw013sdkmK3mEJcQ=="
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    %%[[draft]]%%
+    <script>
+        hljs.initHighlightingOnLoad();
+    </script>
+</body>
+
+</html>

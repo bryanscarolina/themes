@@ -31,7 +31,7 @@
       "editor.findMatchBackground": "#ffcd9782",
       "editor.findMatchHighlightBackground": "#ffffff40",
       "editor.findRangeHighlightBackground": "#44475a75",
-      // "editor.foldBackground": "#1E1F35",
+      "editor.foldBackground": "#1E1F35",
       "editor.foreground": "#f4f5f7",
       "editor.hoverHighlightBackground": "#8be9fd50",
       "editor.lineHighlightBorder": "#44475a",

@@ -1,6 +1,7 @@
 /*───────────────────────────────────────────────────────
+
 BR 141
-Version 0.0.1
+Version 0.0.3
 
 Inspired by: @colineckert Things theme found below
 https://github.com/colineckert/obsidian-things
@@ -11,6 +12,19 @@ https://github.com/colineckert/obsidian-things
 /* ───────────────   MAIN STYLES   ─────────────────── */
 /* ────────────────────────────────────────────────────*/
 
+/* Custom Monospace Font */
+
+.fragment-mono-regular {
+  font-family: "Fragment Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fragment-mono-regular-italic {
+  font-family: "Fragment Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
 
 /* COLORS */
 @charset "UTF-8";
@@ -35,6 +49,13 @@ body {
   --orange: #cc3614;
   --red: #c61616;
   --purple: #6e2b9b;
+
+  --h1-color: var(--text-normal);
+  --h2-color: var(--text-normal);
+  --h3-color: var(--blue);
+  --h4-color: var(--yellow);
+  --h5-color: var(--red);
+  --h6-color: var(--text-muted);
 
   --strikethrough-gray: #626c80;
   --comment-gray: #a3a6a7;
@@ -70,7 +91,7 @@ body {
     Inter, Ubuntu, sans-serif;
   --font-editor-theme: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Inter, Ubuntu, sans-serif;
-  --font-monospace-theme: 'JetBrains Mono', 'Fira Code', Menlo, SFMono-Regular,
+  --font-monospace-theme: 'Fragment Mono', 'Fira Code', Menlo, SFMono-Regular,
     Consolas, 'Roboto Mono', monospace;
   --font-interface-theme: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Inter, Ubuntu, sans-serif;
@@ -82,11 +103,11 @@ body {
   --link-external-decoration: underline;
   --link-decoration: underline;
 
-  /* -------- */
-  --radius-s: 3px;
+  /* Border Radius */
+  --radius-s: 4px;
   --radius-m: 6px;
   --radius-l: 10px;
-  --radius-xl: 20px;
+  --radius-xl: 16px;
 }
 
 /* COLOR SCHEMES
@@ -275,7 +296,7 @@ body.theme-dark.is-mobile {
 }
 
 body.is-mobile.theme-dark.mobile-black-background {
-  --color-base-00: var(--off-white);
+  --color-base-00: var(--black);
 }
 
 /* Make exported PDFs render correctly */
@@ -283,7 +304,7 @@ body.is-mobile.theme-dark.mobile-black-background {
   .theme-dark {
     --highlight-mix-blend-mode: darken;
     --color-base-30: #ebedf0;
-    --h1-color: var(--color-base-00);
+    --h1-color: var(var(--color-base-00);
   }
 }
 
@@ -409,7 +430,6 @@ body:not(.no-codeblock-line-numbers)
   height: 100%;
   width: 1.7em;
   color: var(--text-muted);
-  /* background-color: #1e2029; */
   background-color: var(--code-background);
   position: absolute;
   left: 0;

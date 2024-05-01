@@ -1,7 +1,7 @@
 /*───────────────────────────────────────────────────────
 
 BR 141
-Version 0.0.3
+Version 0.0.5
 
 Inspired by: @colineckert Things theme found below
 https://github.com/colineckert/obsidian-things
@@ -129,6 +129,22 @@ body.theme-light.is-mobile {
   --color-blue: #5099fc;
   --color-purple: #6e2b9b;
   --color-pink: #f53d7e;
+  --code-background: #ebf1fa;
+  --code-light-gray: #cfd4db;
+  --code-gray: #b2b1ba;
+  --code-dark-gray: #5d5d5d;
+  --code-red: #d64b48;
+  --code-green: #1fbf8a;
+  --code-orange: #ea7f58;
+  --code-yellow: #d4c541;
+  --code-cyan: #3bc7ce;
+  --code-blue: #2973bd;
+  --code-purple: #766aae;
+  --code-pink: #f876a7;
+  --code-light-red: #ff6868;
+  --code-gray-green: #6da18f;
+  --code-gold: #ffb750;
+  --code-light-orange: #fd896c;
   --color-base-00: #fcfcfc;
   --color-base-05: #fafafa;
   --color-base-10: #fbf4f3; /* code blocks */
@@ -322,12 +338,70 @@ body.h1-underline .HyperMD-header.HyperMD-header-2.cm-line {
   font-family: var(--font-text-theme);
 }
 
-/* Blockquote */
+/* Custom Blockquotes */
 body:not(.default-font-color) .markdown-preview-view blockquote,
 body:not(.default-font-color) span.cm-quote.cm-quote-1 {
-  font-style: italic;
-  color: var(--quote-color);
+  font-style: normal;
+  background-color: var(--code-background);
+  color: var(--code-dark-gray);
+  border: none;
+  border-radius: 6px;
+  padding: 12px;
 }
+
+/* Custom Blockquote Alerts */
+.markdown-preview-view blockquote.alert-note {
+  background-color: #ecf5fe;
+  color: #113C64;
+  border: none;
+  border-radius: 6px;
+  padding: 12px;
+}
+
+.markdown-preview-view blockquote.alert-caution {
+  background-color: #fef9ec;
+  color: #5f4d13;
+  border: none;
+  border-radius: 6px;
+  padding: 12px;
+}
+
+.markdown-preview-view blockquote.alert-warning {
+  background-color: #fef1ef;
+  color: #602720;
+  border: none;
+  border-radius: 6px;
+  padding: 12px;
+}
+
+.markdown-preview-view blockquote.alert-standout {
+  background-color: #fef9ec;
+  color: #5f4d13;
+  border: none;
+  border-radius: 6px;
+  padding: 12px;
+}
+
+.markdown-preview-view blockquote.alert-tip {
+  background-color: #ecfaf6;
+  color: #0a4732;
+  border: none;
+  border-radius: 6px;
+  padding: 12px;
+}
+
+.markdown-rendered blockquote {
+  background-color: #ecfaf6;
+  color: #0a4732;
+  border: none;
+  border-radius: 6px;
+  padding: 12px;
+  font-style: var(--blockquote-font-style);
+  background-color: var(--blockquote-background-color);
+  border-left: var(--blockquote-border-thickness) solid var(--blockquote-border-color);
+  padding: 0 0 0 var(--size-4-6);
+  margin-inline-start: 0;
+  margin-inline-end: 0;
 
 /* Bold font */
 body:not(.default-font-color) strong,
@@ -552,7 +626,7 @@ span.token.variable,
 .cm-variable,
 .cm-property,
 .cm-qualifier {
-  color: var(--atom-red);
+  color: var(--code-light-red);
 }
 .token.boolean,
 .token.number,
@@ -563,7 +637,7 @@ span.token.variable,
 .cm-attribute,
 .cm-number,
 .cm-property.cm-string {
-  color: var(--atom-orange) !important;
+  color: var(--code-orange) !important;
 }
 .token.string,
 .token.char,
@@ -571,7 +645,7 @@ span.token.variable,
 .token.inserted,
 .cm-hmd-codeblock.cm-string,
 .cm-hmd-codeblock.cm-string-2 {
-  color: var(--atom-green);
+  color: var(--code-green);
 }
 .token.operator,
 .cm-operator,
@@ -579,12 +653,12 @@ span.token.variable,
 .token.url,
 .language-css .token.string,
 .style .token.string {
-  color: var(--atom-aqua);
+  color: var(--code-cyan);
 }
 .token.atrule,
 .token.keyword,
 .cm-keyword {
-  color: var(--atom-purple);
+  color: var(--code-purple);
 }
 .cm-builtin,
 .token.function,
@@ -598,12 +672,12 @@ span.token.variable,
 code .cm-tag,
 .cm-variable-2,
 .cm-type {
-  color: var(--atom-yellow);
+  color: var(--code-gold);
 }
 .token.regex,
 .token.important,
 .token.variable {
-  color: var(--atom-purple);
+  color: var(--code-purple);
 }
 .token.important,
 .token.bold {
@@ -1167,7 +1241,7 @@ settings:
         title: Blockquotes font color
         type: variable-color
         format: hex
-        default: '#a3a6a7' 
+        default: '#b2b1ba' 
     -
         id: code-normal
         title: Inline code blocks font color (Light mode)
@@ -1185,7 +1259,7 @@ settings:
         title: Tag background color (Light mode)
         type: variable-color
         format: hex
-        default: '#f4f5f7' 
+        default: '#f0f0f2' 
     - 
         id: tag-font-color-l
         title: Tag font color (Light mode)

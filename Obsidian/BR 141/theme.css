@@ -1,7 +1,7 @@
 /*───────────────────────────────────────────────────────
 
 BR 141
-Version 0.0.5
+Version 0.0.8
 
 Inspired by: @colineckert Things theme found below
 https://github.com/colineckert/obsidian-things
@@ -34,10 +34,10 @@ body {
   --base-s: 17%; /* Base saturation */
   --base-d: 14%; /* Base lightness Dark Mode  - 0 is black */
   --base-l: 100%; /* Base lightness Light Mode  - 100 is white */
-  --accent-h: 11; /* Accent hue */
-  --accent-s: 95%; /* Accent saturation */
-  --accent-d: 70%; /* Accent lightness Dark Mode */
-  --accent-l: 60%; /* Accent lightness Light Mode */
+  --accent-h: 220; /* Accent hue */
+  --accent-s: 23%; /* Accent saturation */
+  --accent-d: 96%; /* Accent lightness Dark Mode */
+  --accent-l: 100%; /* Accent lightness Light Mode */
 
   --white: #fefefe;
   --off-white: #f1f2f4;
@@ -86,17 +86,14 @@ body {
   --tag-background-color-dark: var(--black);
   --tag-font-color-dark: var(--comment-gray);
 
+  --cus-highlight-cursor-line: rgba(245,204,142,0.12);
+
   /* FONTS */
-  --font-text-theme: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Inter, Ubuntu, sans-serif;
-  --font-editor-theme: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Inter, Ubuntu, sans-serif;
-  --font-monospace-theme: 'Fragment Mono', 'Fira Code', Menlo, SFMono-Regular,
-    Consolas, 'Roboto Mono', monospace;
-  --font-interface-theme: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Inter, Ubuntu, sans-serif;
-  --font-editor: var(--font-editor-override), var(--font-text-override),
-    var(--font-editor-theme);
+  --font-text-theme: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Inter, Ubuntu, sans-serif;
+  --font-editor-theme: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Inter, Ubuntu, sans-serif;
+  --font-monospace-theme: 'Fragment Mono', Menlo, SFMono-Regular, Consolas, 'Roboto Mono', monospace;
+  --font-interface-theme: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Inter, Ubuntu, sans-serif;
+  --font-editor: var(--font-editor-override), var(--font-text-override), var(--font-editor-theme);
 
   /* Misc */
   --checkbox-radius: 30%;
@@ -133,18 +130,29 @@ body.theme-light.is-mobile {
   --code-light-gray: #cfd4db;
   --code-gray: #b2b1ba;
   --code-dark-gray: #5d5d5d;
+  --code-black: #1d2229;
   --code-red: #d64b48;
-  --code-green: #1fbf8a;
-  --code-orange: #ea7f58;
-  --code-yellow: #d4c541;
-  --code-cyan: #3bc7ce;
+  --code-green: #29b485;
+  --code-orange: #e77247;
+  --code-yellow: #dac92d;
+  --code-cyan: #29abb2;
+  --code-teal: #008080;
   --code-blue: #2973bd;
-  --code-purple: #766aae;
+  --code-purple: #6354a6;
   --code-pink: #f876a7;
-  --code-light-red: #ff6868;
+  --code-light-red: #ff8474;
   --code-gray-green: #6da18f;
   --code-gold: #ffb750;
   --code-light-orange: #fd896c;
+  
+  --code-string: var(--code-orange) !important;
+  --code-function:var(--code-blue) !important;
+  /* TESTING
+  --code-keyword: var(--code-red) !important;
+  --code-unit: var(--code-pink) !important;
+*/
+  --code-property: var(--code-blue) !important;
+  
   --color-base-00: #fcfcfc;
   --color-base-05: #fafafa;
   --color-base-10: #fbf4f3; /* code blocks */
@@ -157,8 +165,8 @@ body.theme-light.is-mobile {
   --color-base-60: #9eabbf;
   --color-base-70: #8999b1;
   --color-base-100: #44506f;
-  --color-accent-hsl: var(--accent-h), var(--accent-s), var(--accent-l);
-  --color-accent: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
+  --color-accent-hsl: #445066bb;
+  --color-accent: #445066bb;
   --color-accent-1: hsl(
     var(--accent-h),
     var(--accent-s),
@@ -173,9 +181,8 @@ body.theme-light.is-mobile {
   --background-secondary-alt: var(--color-base-05);
   --background-modifier-box-shadow: rgba(0, 0, 0, 0.1);
   --background-modifier-cover: rgba(220, 220, 220, 0.4);
-  --text-highlight-bg-l: rgba(224, 238, 251, 0.4);
-  --text-highlight-bg: var(--text-highlight-bg-l);
-  --text-highlight-bg-active: rgba(255, 250, 230, 0.4);
+  --text-highlight-bg: rgba(255, 255, 0, 0.4);
+  --text-selection: rgba(204, 230, 255, 0.99);
   --input-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.12),
     0 2px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 1.5px 0 rgba(0, 0, 0, 0.03),
     0 1px 2px 0 rgba(0, 0, 0, 0.04), 0 0 0 0 transparent;
@@ -231,15 +238,15 @@ body.theme-dark.is-mobile {
   --mono-rgb-0: 0, 0, 0;
   --mono-rgb-100: 255, 255, 255;
   --color-red-rgb: 251, 70, 76;
-  --color-red:  #eb493f;
+  --color-red:  #eb493f !important;
   --color-green-rgb: 68, 207, 110;
-  --color-green: #30c061;
-  --color-orange: #f36140;
-  --color-yellow: #e4c955;
-  --color-cyan: #5cdfe5;
-  --color-blue: #027aff;
-  --color-purple: #b376dc;
-  --color-pink: #ff8db6;
+  --color-green: #30c061 !important;
+  --color-orange: #f36140 !important;
+  --color-yellow: #e4c955 !important;
+  --color-cyan: #5cdfe5 !important;
+  --color-blue: #027aff !important;
+  --color-purple: #b376dc !important;
+  --color-pink: #ff8db6 !important;
   --color-base-00: #1d2229; /* main editor window */
   --color-base-10: #ef3d13; /* code blocks */
   --color-base-20: #181c20; /* top unselected unfocused nav */
@@ -270,7 +277,7 @@ body.theme-dark.is-mobile {
   --text-highlight-bg-d: rgba(255, 208, 0, 0.4);
   --text-highlight-bg: var(--text-highlight-bg-d);
   --text-highlight-bg-active: rgba(255, 128, 0, 0.4);
-  --text-selection: hsla(var(--interactive-accent-hsl), 0.25);
+  --text-selection: var(--text-highlight-bg-l);
   --input-shadow: inset 0 0.5px 0.5px 0.5px rgba(255, 255, 255, 0.09),
     0 2px 4px 0 rgba(0, 0, 0, 0.15), 0 1px 1.5px 0 rgba(0, 0, 0, 0.1),
     0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 0 0 0 transparent;
@@ -293,11 +300,11 @@ body.theme-dark.is-mobile {
     calc(var(--base-d) + 50%)
   );
 
-  --text-accent: hsl(var(--accent-h), var(--accent-s), var(--accent-d));
+  --text-accent: #445066bb;
   --text-accent-hover: hsl(
-    var(--accent-h),
-    var(--accent-s),
-    calc(var(--accent-d) + 12%)
+    var(--base-h),
+    var(--base-s),
+    calc(var(--base-d) + 45%) !important
   );
 
   --atom-gray-1: #5c6370;
@@ -323,6 +330,8 @@ body.is-mobile.theme-dark.mobile-black-background {
     --h1-color: var(var(--color-base-00);
   }
 }
+
+p
 
 /* H2 styling */
 body.h1-underline h2,
@@ -350,6 +359,47 @@ body:not(.default-font-color) span.cm-quote.cm-quote-1 {
 }
 
 /* Custom Blockquote Alerts */
+
+blockquote {
+  font-style: normal;
+  background-color: #f1f2f5;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+.markdown-rendered blockquote {
+  font-style: normal;
+  background-color: #f1f2f5;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+span.cm-formatting.cm-formatting-quote.cm-formatting-quote-1.cm-quote.cm-quote-1 {
+  color: #f1f2f5;
+  border: none;
+}
+
+.cm-formatting.cm-formatting-quote.cm-formatting-quote-1.cm-quote.cm-quote-1 {
+  color: #f1f2f5;
+  border: none;
+}
+
+span.HyperMD-quote.HyperMD-quote-1.cm-line {
+  background-color: #f1f2f5;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+.HyperMD-quote.HyperMD-quote-1.cm-line {
+  background-color: #f1f2f5;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: none;
+}
+
 .markdown-preview-view blockquote.alert-note {
   background-color: #ecf5fe;
   color: #113C64;
@@ -446,6 +496,7 @@ img {
 
 .theme-dark .modal-container .suggestion-item.is-selected {
   background: var(--black);
+  color: var(--color-base-100);
 }
 
 /* Focus active line */
@@ -645,7 +696,7 @@ span.token.variable,
 .token.inserted,
 .cm-hmd-codeblock.cm-string,
 .cm-hmd-codeblock.cm-string-2 {
-  color: var(--code-green);
+  color: var(--code-blue);
 }
 .token.operator,
 .cm-operator,
@@ -658,7 +709,7 @@ span.token.variable,
 .token.atrule,
 .token.keyword,
 .cm-keyword {
-  color: var(--code-purple);
+  color: var(--code-orange);
 }
 .cm-builtin,
 .token.function,
@@ -672,7 +723,7 @@ span.token.variable,
 code .cm-tag,
 .cm-variable-2,
 .cm-type {
-  color: var(--code-gold);
+  color: var(--code-purple);
 }
 .token.regex,
 .token.important,
@@ -1497,3 +1548,78 @@ community:
 - obsidian-system-dark-mode
 - obsidian-style-settings
 */
+
+
+/* CUSTOM CODE BLOCK COLORS */
+
+span.token.attr-name {
+  color: var(--code-blue) !important;
+}
+.token.attr-name {
+  color: var(--code-blue) !important;
+}
+.token.selector, .token.attr-name, .token.string {
+  color: var(--code-blue) !important;
+}
+.token.entity, .token.parameter, .token.property, .token.url, .language-css .token.string, .style .token.string, .token.variable, .token.class-name {
+  color: var(--code-cyan) !important;
+}
+span.token.unit {
+  color: var(--code-pink) !important;
+}
+.token.unit {
+  color: var(--code-pink) !important;
+}
+span.token.maybe-class-name {
+  color: var(--code-green) !important;
+}
+.token.maybe-class-name {
+  color: var(--code-green) !important;
+}
+/*
+span.token.property {
+  color: var(--code-orange) !important;
+}
+.token.property {
+  color: var(--code-orange) !important;
+}
+span.token.tag {
+  color: var(--code-red) !important;
+  }
+.token.tag {
+  color: var(--code-red) !important;
+}
+span.token.number {
+  color: var(--code-purple) !important;
+}
+.token.number {
+  color: var(--code-purple) !important;
+}
+span.token.unit {
+  color: var(--code-gold) !important;
+}
+.token.unit {
+  color: var(--code-gold) !important;
+}
+span.token.punctuation {
+  color: var(--code-black) !important;
+}
+.token.punctuation {
+  color: var(--code-black) !important;
+}
+.cm-qualifier, .cm-string, .cm-string-2 {
+  color: var(--code-orange) !important;
+}
+.cm-string {
+  color: var(--code-orange) !important;
+}
+.cm-builtin, .cm-property, .cm-attribute, .cm-type {
+  color: var(--code-blue) !important;
+}
+.cm-attribute {
+  color: var(--code-blue) !important;
+}
+*/
+.empty-state-action {
+  color: #445066bb;
+}

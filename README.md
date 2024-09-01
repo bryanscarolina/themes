@@ -15,6 +15,8 @@ They include the following…
 - [CodeRunner](https://coderunnerapp.com)
 - [VS Code](https://code.visualstudio.com)
 - [Textastic](https://www.textasticapp.com)
+- [Working Copy](https://workingcopy.app/)
+- [Snippets Lab](https://www.renfei.org/snippets-lab/)
 
 **Miscellaneous**
 - [CARROT Weather](https://www.meetcarrot.com/weather/)

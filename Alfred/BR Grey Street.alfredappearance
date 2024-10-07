@@ -1,0 +1,64 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 9,
+      "subtext" : {
+        "size" : 12,
+        "colorSelected" : "#525352FF",
+        "font" : "Helvetica",
+        "color" : "#838383FF"
+      },
+      "shortcut" : {
+        "size" : 16,
+        "colorSelected" : "#F55826FF",
+        "font" : "Helvetica",
+        "color" : "#0081FFD8"
+      },
+      "backgroundSelected" : "#F7F8F7FF",
+      "text" : {
+        "size" : 24,
+        "colorSelected" : "#FF5000FF",
+        "font" : "Helvetica",
+        "color" : "#363636FF"
+      },
+      "iconPaddingHorizontal" : 14,
+      "roundness" : 6,
+      "paddingVertical" : 6,
+      "iconSize" : 43
+    },
+    "search" : {
+      "backgroundSelected" : "#00E54156",
+      "paddingHorizontal" : 8,
+      "spacing" : 0,
+      "text" : {
+        "size" : 44,
+        "colorSelected" : "#F55826FF",
+        "font" : "Helvetica",
+        "color" : "#161616FF"
+      },
+      "background" : "#DCE1E8FF",
+      "roundness" : 0,
+      "paddingVertical" : 5
+    },
+    "window" : {
+      "color" : "#DCE1E8FF",
+      "paddingHorizontal" : 6,
+      "width" : 485,
+      "borderPadding" : 0,
+      "borderColor" : "#CBCBCBF3",
+      "blur" : 30,
+      "roundness" : 6,
+      "paddingVertical" : 9
+    },
+    "credit" : "Bryan Smith",
+    "separator" : {
+      "color" : "#CBCBCBF3",
+      "thickness" : 0
+    },
+    "scrollbar" : {
+      "color" : "#6D6D6DFF",
+      "thickness" : 0
+    },
+    "name" : "BR Grey Street"
+  }
+}

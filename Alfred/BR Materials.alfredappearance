@@ -1,0 +1,64 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 9,
+      "subtext" : {
+        "size" : 11,
+        "colorSelected" : "#4186F5BF",
+        "font" : "System",
+        "color" : "#1D22284D"
+      },
+      "shortcut" : {
+        "size" : 16,
+        "colorSelected" : "#EA4434FF",
+        "font" : "System",
+        "color" : "#4186F5D8"
+      },
+      "backgroundSelected" : "#E0EAFBFF",
+      "text" : {
+        "size" : 23,
+        "colorSelected" : "#4186F5FF",
+        "font" : "SF Pro Text",
+        "color" : "#1D22287F"
+      },
+      "iconPaddingHorizontal" : 12,
+      "roundness" : 8,
+      "paddingVertical" : 7,
+      "iconSize" : 36
+    },
+    "search" : {
+      "backgroundSelected" : "#4186F5FF",
+      "paddingHorizontal" : 10,
+      "spacing" : 0,
+      "text" : {
+        "size" : 39,
+        "colorSelected" : "#FEFEFEFF",
+        "font" : "System",
+        "color" : "#1D2228FF"
+      },
+      "background" : "#FAFCFEFF",
+      "roundness" : 0,
+      "paddingVertical" : 10
+    },
+    "window" : {
+      "color" : "#FAFCFEFF",
+      "paddingHorizontal" : 6,
+      "width" : 490,
+      "borderPadding" : 0,
+      "borderColor" : "#CBCBCBF3",
+      "blur" : 30,
+      "roundness" : 8,
+      "paddingVertical" : 0
+    },
+    "credit" : "Bryan Smith",
+    "separator" : {
+      "color" : "#CBCBCBF3",
+      "thickness" : 0
+    },
+    "scrollbar" : {
+      "color" : "#6D6D6DFF",
+      "thickness" : 0
+    },
+    "name" : "BR Materials"
+  }
+}

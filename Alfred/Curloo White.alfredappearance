@@ -1,0 +1,64 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 8,
+      "subtext" : {
+        "size" : 11,
+        "colorSelected" : "#606060BF",
+        "font" : "System",
+        "color" : "#606060FF"
+      },
+      "shortcut" : {
+        "size" : 14,
+        "colorSelected" : "#EAEAEAFF",
+        "font" : "System",
+        "color" : "#F03100FF"
+      },
+      "backgroundSelected" : "#FF9A5733",
+      "text" : {
+        "size" : 23,
+        "colorSelected" : "#323332FF",
+        "font" : "System",
+        "color" : "#777777FF"
+      },
+      "iconPaddingHorizontal" : 8,
+      "roundness" : 7,
+      "paddingVertical" : 8,
+      "iconSize" : 37
+    },
+    "search" : {
+      "backgroundSelected" : "#B2D7FFFF",
+      "paddingHorizontal" : 8,
+      "spacing" : 11,
+      "text" : {
+        "size" : 38,
+        "colorSelected" : "#000000FF",
+        "font" : "System",
+        "color" : "#333333FF"
+      },
+      "background" : "#CCCCCC00",
+      "roundness" : 7,
+      "paddingVertical" : 0
+    },
+    "window" : {
+      "color" : "#FFFFFFED",
+      "paddingHorizontal" : 3,
+      "width" : 497,
+      "borderPadding" : 2,
+      "borderColor" : "#FDFCFFFF",
+      "blur" : 30,
+      "roundness" : 7,
+      "paddingVertical" : 12
+    },
+    "credit" : "Bryan Smith",
+    "separator" : {
+      "color" : "#CBCBCBF3",
+      "thickness" : 0
+    },
+    "scrollbar" : {
+      "color" : "#FF1A2AFF",
+      "thickness" : 0
+    },
+    "name" : "Curloo White"
+  }
+}

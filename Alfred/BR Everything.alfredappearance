@@ -1,0 +1,64 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 8,
+      "subtext" : {
+        "size" : 13,
+        "colorSelected" : "#54FF77CC",
+        "font" : "System",
+        "color" : "#81848FFF"
+      },
+      "shortcut" : {
+        "size" : 14,
+        "colorSelected" : "#FE71AAD8",
+        "font" : "System",
+        "color" : "#FE71AAD8"
+      },
+      "backgroundSelected" : "#AC5D7B30",
+      "text" : {
+        "size" : 26,
+        "colorSelected" : "#F3F5F6FF",
+        "font" : "System",
+        "color" : "#F1F2F3E5"
+      },
+      "iconPaddingHorizontal" : 8,
+      "roundness" : 8,
+      "paddingVertical" : 9,
+      "iconSize" : 44
+    },
+    "search" : {
+      "backgroundSelected" : "#599391E2",
+      "paddingHorizontal" : 8,
+      "spacing" : 6,
+      "text" : {
+        "size" : 42,
+        "colorSelected" : "#FDFEFFFF",
+        "font" : "System",
+        "color" : "#FDFEFFFF"
+      },
+      "background" : "#1D2228FF",
+      "roundness" : 8,
+      "paddingVertical" : 6
+    },
+    "window" : {
+      "color" : "#1D2228FF",
+      "paddingHorizontal" : 6,
+      "width" : 569,
+      "borderPadding" : 0,
+      "borderColor" : "#0000007F",
+      "blur" : 15,
+      "roundness" : 8,
+      "paddingVertical" : 6
+    },
+    "credit" : "Bryan Smith",
+    "separator" : {
+      "color" : "#CBCBCBF3",
+      "thickness" : 0
+    },
+    "scrollbar" : {
+      "color" : "#446593FF",
+      "thickness" : 0
+    },
+    "name" : "BR Everything"
+  }
+}

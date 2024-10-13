@@ -19,12 +19,13 @@ They include the following…
 - [Snippets Lab](https://www.renfei.org/snippets-lab/)
 
 **Miscellaneous**
+- [Alfred 5](https://www.alfredapp.com/)
 - [CARROT Weather](https://www.meetcarrot.com/weather/)
 - [Narwhal 2 for Reddit](https://narwhal.app/)
 
 ### Additional Tools 
 
-Below is a set of useful utilities to help make your own.
+Below is a set of useful utilities to help make your own themes.
 
 + [Drafts Theme Builder](https://tools.getdrafts.com/themes/theme-builder)
 + [VS Code Theme Builder](https://themes.vscode.one/)

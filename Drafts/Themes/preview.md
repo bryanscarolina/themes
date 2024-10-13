@@ -4,9 +4,13 @@ Below are screenshots from Drafts. They are generated via the Frames shortcut in
 
 > **NOTE:** The `BR` prefix is simply so I don’t accidentally label a theme as custom when it’s not.
 
-### BR Amycus
+### BR Starfield
 
-> This is currently the main light theme I use in Drafts.
+> This is currently the main light theme I use in Drafts. You can also find the companion Narwhal theme in the Narwhal folder.
+
+![](https://github.com/user-attachments/assets/079e43a6-7d4c-4532-bf6d-350a33ea360b)
+
+### BR Amycus
 
 ![](https://github.com/bryanscarolina/themes/assets/42221030/de647b89-0e5e-4685-93f9-71315d53be25)
 

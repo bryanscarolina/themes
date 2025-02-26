@@ -17,6 +17,7 @@ They include the following…
 - [Textastic](https://www.textasticapp.com)
 - [Working Copy](https://workingcopy.app/)
 - [Snippets Lab](https://www.renfei.org/snippets-lab/)
+- [Code Edit](https://www.codeedit.app/)
 
 **Miscellaneous**
 - [Alfred 5](https://www.alfredapp.com/)

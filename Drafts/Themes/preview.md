@@ -28,3 +28,11 @@ Below are screenshots from Drafts. They are generated via the Frames shortcut in
 
 ![](https://github.com/bryanscarolina/themes/assets/42221030/0ba32ff7-3374-4d91-966f-13e83d355f74)
 
+### BR Dracula
+
+> This is my customized take on the Dracula theme. I tweaked some of the colors to make it more legible and switched some of the scopes around. You can see a preview image below or by [visiting GitHub](https://github.com/bryanscarolina/themes/blob/main/Drafts/Themes). It’s also shared on the Drafts Directory [here](https://directory.getdrafts.com/t/2Yy)
+
+![](https://github.com/user-attachments/assets/b348700f-4ac6-4b82-8e62-405ad71d6128)
+
+
+

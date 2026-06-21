@@ -30,6 +30,6 @@ Below is a set of useful utilities to help make your own themes.
 
 + [Drafts Theme Builder](https://tools.getdrafts.com/themes/theme-builder)
 + [VS Code Theme Builder](https://themes.vscode.one/)
-+ [tmTheme Editor](https://tmtheme-editor.herokuapp.com/#!/editor/theme/Monokai)
++ ~~[tmTheme Editor](https://tmtheme-editor.herokuapp.com/#!/editor/theme/Monokai)~~
 
 > **NOTE:** The tmTheme Editor should work for both Textastic and CodeRunner.

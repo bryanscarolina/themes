@@ -316,7 +316,7 @@
     "text.invisibles": {
       "name": "Invisible characters",
       "settings": {
-        "foreground": "invisibles"
+        "foreground": "#bfc9d8"
       }
     },
     "text.link": {
@@ -336,7 +336,7 @@
       "name": "Quotation block",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#aaaaaa"
+        "foreground": "#bbbbbb"
       }
     },
     "text.url": {
@@ -344,7 +344,7 @@
       "settings": {
         "fontSize": "normal",
         "fontWeight": "regular",
-        "foreground": "accent03"
+        "foreground": "#ff9e9e"
       }
     },
     "text.linkModeLink": {
@@ -358,13 +358,13 @@
       "name": "Strikethrough",
       "settings": {
         "fontStyle": "strikethrough",
-        "foreground": "comment"
+        "foreground": "#99999a"
       }
     },
     "markup": {
       "name": "Markup",
       "settings": {
-        "foreground": "markup"
+        "foreground": "#8a8a8a"
       }
     },
     "markup.heading": {
@@ -559,15 +559,15 @@
       "foreground": "#fbfbfb",
       "background": "#1f2326",
       "heading": "#ffa2a2",
-      "strikethrough": "#6d7480",
-      "comment": "#6d7480",
+      "strikethrough": "#a2a2a2",
+      "comment": "#8a8a8a",
       "link": "#92bef4",
       "activeLink": "#65cb6e",
       "code": "#c9a9f3",
       "codeBackground": "#292e32",
       "literal": "#65cb6e",
       "keyword": "#e17272",
-      "markup": "#585b60",
+      "markup": "#8a8a8a",
       "addition": "#69c9d1",
       "deletion": "#cb4a4a",
       "substitution": "#d89029",
@@ -584,19 +584,19 @@
       "tint": "#76b3ff",
       "textCaret": "#76b3ff",
       "tintAlternate": "#f4c6c6",
-      "textSelection": "#76e7aa",
-      "textHighlight": "#4a69a1",
+      "textSelection": "#ffde9d",
+      "textHighlight": "#7b98cb",
       "background": "#1f2326",
       "textBackground": "#1f2326",
       "backgroundCollection": "#1b1f22",
       "promptBackground": "#0d0e0f",
-      "promptButtonBackground": "#4085da",
+      "promptButtonBackground": "#5097f0",
       "promptButtonForeground": "#fbfbfb",
-      "promptButtonDestructiveBackground": "#ac4747",
+      "promptButtonDestructiveBackground": "#c74949",
       "promptButtonDestructiveForeground": "#fbfbfb",
       "foreground": "#fbfbfb",
       "textForeground": "#fbfbfb",
-      "caption": "#9d9d9d",
+      "caption": "#9a9a9a",
       "actionBarBackground": "#1f2326",
       "actionBarKeyBackground": "#2f3336",
       "actionBarKeyForeground": "#7f858e",

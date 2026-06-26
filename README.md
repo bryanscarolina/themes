@@ -32,4 +32,4 @@ Below is a set of useful utilities to help make your own themes.
 + [VS Code Theme Builder](https://themes.vscode.one/)
 + ~~[tmTheme Editor](https://tmtheme-editor.herokuapp.com/#!/editor/theme/Monokai)~~
 
-> **NOTE:** The tmTheme Editor should work for both Textastic and CodeRunner.
+> **NOTE:** ~~The tmTheme Editor should work for both Textastic and CodeRunner.~~ Unfortunately, tmThemeEditor is no longer available :(

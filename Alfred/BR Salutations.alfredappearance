@@ -1,0 +1,65 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 7,
+      "subtext" : {
+        "size" : 12,
+        "colorSelected" : "#DE3437FF",
+        "font" : "SF Compact Text",
+        "color" : "#80808099"
+      },
+      "shortcut" : {
+        "size" : 14,
+        "colorSelected" : "#F1122BFF",
+        "font" : "SF Pro Display Semibold",
+        "color" : "#4D93F7FF"
+      },
+      "backgroundSelected" : "#E6E7E8FF",
+      "text" : {
+        "size" : 22,
+        "colorSelected" : "#202020FF",
+        "font" : "SF Pro Text",
+        "color" : "#202020B2"
+      },
+      "iconPaddingHorizontal" : 8,
+      "roundness" : 6,
+      "paddingVertical" : 9,
+      "iconSize" : 42
+    },
+    "search" : {
+      "backgroundSelected" : "#DDE8FBFF",
+      "paddingHorizontal" : 8,
+      "spacing" : 0,
+      "text" : {
+        "size" : 37,
+        "colorSelected" : "#202020FF",
+        "font" : "SF Pro Text",
+        "color" : "#202020FF"
+      },
+      "background" : "#FFFFFFFF",
+      "roundness" : 6,
+      "paddingVertical" : 8
+    },
+    "window" : {
+      "color" : "#FFFFFFFF",
+      "paddingHorizontal" : 8,
+      "width" : 474,
+      "borderPadding" : 0,
+      "borderColor" : "#FFFFFF00",
+      "blur" : 0,
+      "roundness" : 6,
+      "paddingVertical" : 8
+    },
+    "credit" : "Bryan Smith",
+    "visualEffectMode" : 1,
+    "separator" : {
+      "color" : "#CBCBCBF3",
+      "thickness" : 0
+    },
+    "scrollbar" : {
+      "color" : "#4FBBB0FF",
+      "thickness" : 4
+    },
+    "name" : "BR Salutations"
+  }
+}

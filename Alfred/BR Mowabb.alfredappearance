@@ -1,0 +1,65 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 9,
+      "subtext" : {
+        "size" : 11,
+        "colorSelected" : "#6F7679FF",
+        "font" : "ALS Hauss",
+        "color" : "#838383BF"
+      },
+      "shortcut" : {
+        "size" : 16,
+        "colorSelected" : "#D40044FF",
+        "font" : "Questa Sans",
+        "color" : "#155FDCFF"
+      },
+      "backgroundSelected" : "#FC4A272D",
+      "text" : {
+        "size" : 25,
+        "colorSelected" : "#2C3034FF",
+        "font" : "Ideal",
+        "color" : "#2C3034FF"
+      },
+      "iconPaddingHorizontal" : 12,
+      "roundness" : 10,
+      "paddingVertical" : 9,
+      "iconSize" : 43
+    },
+    "search" : {
+      "backgroundSelected" : "#EBCFC2FF",
+      "paddingHorizontal" : 8,
+      "spacing" : 0,
+      "text" : {
+        "size" : 44,
+        "colorSelected" : "#BC5F09FF",
+        "font" : "Ideal",
+        "color" : "#161616FF"
+      },
+      "background" : "#EFEAEEFF",
+      "roundness" : 0,
+      "paddingVertical" : 8
+    },
+    "window" : {
+      "color" : "#EFEAEEFF",
+      "paddingHorizontal" : 5,
+      "width" : 504,
+      "borderPadding" : 0,
+      "borderColor" : "#CBCBCBF3",
+      "blur" : 0,
+      "roundness" : 10,
+      "paddingVertical" : 8
+    },
+    "credit" : "Bryan Smith",
+    "visualEffectMode" : 1,
+    "separator" : {
+      "color" : "#CBCBCBF3",
+      "thickness" : 0
+    },
+    "scrollbar" : {
+      "color" : "#6D6D6DFF",
+      "thickness" : 0
+    },
+    "name" : "BR Mowabb"
+  }
+}

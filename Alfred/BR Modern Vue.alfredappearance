@@ -1,0 +1,65 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 7,
+      "subtext" : {
+        "size" : 11,
+        "colorSelected" : "#FFA995E5",
+        "font" : "System",
+        "color" : "#41B88399"
+      },
+      "shortcut" : {
+        "size" : 17,
+        "colorSelected" : "#EAEAEAFF",
+        "font" : "System",
+        "color" : "#FFD300E5"
+      },
+      "backgroundSelected" : "#3B424DFF",
+      "text" : {
+        "size" : 25,
+        "colorSelected" : "#DDDDDDFF",
+        "font" : "System",
+        "color" : "#B6B6B67F"
+      },
+      "iconPaddingHorizontal" : 10,
+      "roundness" : 3,
+      "paddingVertical" : 4,
+      "iconSize" : 30
+    },
+    "search" : {
+      "backgroundSelected" : "#FF9BB7E5",
+      "paddingHorizontal" : 8,
+      "spacing" : 9,
+      "text" : {
+        "size" : 34,
+        "colorSelected" : "#000000FF",
+        "font" : "System",
+        "color" : "#FAFAFAFF"
+      },
+      "background" : "#293038FF",
+      "roundness" : 3,
+      "paddingVertical" : 0
+    },
+    "window" : {
+      "color" : "#293039FF",
+      "paddingHorizontal" : 6,
+      "width" : 403,
+      "borderPadding" : 0,
+      "borderColor" : "#34495EFF",
+      "blur" : 0,
+      "roundness" : 3,
+      "paddingVertical" : 8
+    },
+    "credit" : "Bryan Smith",
+    "visualEffectMode" : 2,
+    "separator" : {
+      "color" : "#CBCBCBF3",
+      "thickness" : 0
+    },
+    "scrollbar" : {
+      "color" : "#8583FDFF",
+      "thickness" : 6
+    },
+    "name" : "BR Modern Vue"
+  }
+}

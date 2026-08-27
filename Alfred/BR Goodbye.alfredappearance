@@ -1,0 +1,65 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 9,
+      "subtext" : {
+        "size" : 11,
+        "colorSelected" : "#AAAAAAFF",
+        "font" : "System",
+        "color" : "#AAAAAA66"
+      },
+      "shortcut" : {
+        "size" : 16,
+        "colorSelected" : "#4CB0A5FF",
+        "font" : "System",
+        "color" : "#D6D6D666"
+      },
+      "backgroundSelected" : "#1F4442FF",
+      "text" : {
+        "size" : 23,
+        "colorSelected" : "#FDFDFDFF",
+        "font" : "System",
+        "color" : "#FDFDFD66"
+      },
+      "iconPaddingHorizontal" : 12,
+      "roundness" : 4,
+      "paddingVertical" : 6,
+      "iconSize" : 45
+    },
+    "search" : {
+      "backgroundSelected" : "#764541FF",
+      "paddingHorizontal" : 12,
+      "spacing" : 4,
+      "text" : {
+        "size" : 36,
+        "colorSelected" : "#FEFFFFFF",
+        "font" : "System",
+        "color" : "#FFFFFFFF"
+      },
+      "background" : "#1D2228FF",
+      "roundness" : 0,
+      "paddingVertical" : 10
+    },
+    "window" : {
+      "color" : "#1D2228FF",
+      "paddingHorizontal" : 5,
+      "width" : 400,
+      "borderPadding" : 0,
+      "borderColor" : "#FFFFFF00",
+      "blur" : 0,
+      "roundness" : 6,
+      "paddingVertical" : 0
+    },
+    "credit" : "Bryan Smith",
+    "visualEffectMode" : 2,
+    "separator" : {
+      "color" : "#CBCBCBF3",
+      "thickness" : 0
+    },
+    "scrollbar" : {
+      "color" : "#4CB0A5FF",
+      "thickness" : 2
+    },
+    "name" : "BR Goodbye"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 7,
+      "subtext" : {
+        "size" : 12,
+        "colorSelected" : "#FFD869FF",
+        "font" : "SF Compact Text",
+        "color" : "#4AFFEF5A"
+      },
+      "shortcut" : {
+        "size" : 17,
+        "colorSelected" : "#EAEAEAFF",
+        "font" : "SF Compact Text",
+        "color" : "#BB472BFF"
+      },
+      "backgroundSelected" : "#3C87CA59",
+      "text" : {
+        "size" : 26,
+        "colorSelected" : "#FDFDFDFF",
+        "font" : "SF Pro Text",
+        "color" : "#5D6975FF"
+      },
+      "iconPaddingHorizontal" : 10,
+      "roundness" : 6,
+      "paddingVertical" : 7,
+      "iconSize" : 30
+    },
+    "search" : {
+      "backgroundSelected" : "#FFE763FF",
+      "paddingHorizontal" : 8,
+      "spacing" : 9,
+      "text" : {
+        "size" : 34,
+        "colorSelected" : "#000000FF",
+        "font" : "SF Pro Text",
+        "color" : "#FDFDFDFF"
+      },
+      "background" : "#000000FF",
+      "roundness" : 6,
+      "paddingVertical" : 14
+    },
+    "window" : {
+      "color" : "#15202BFF",
+      "paddingHorizontal" : 7,
+      "width" : 518,
+      "borderPadding" : 0,
+      "borderColor" : "#34495EFF",
+      "blur" : 30,
+      "roundness" : 6,
+      "paddingVertical" : 8
+    },
+    "credit" : "Bryan Smith",
+    "separator" : {
+      "color" : "#CBCBCBF3",
+      "thickness" : 0
+    },
+    "scrollbar" : {
+      "color" : "#FFB185FF",
+      "thickness" : 4
+    },
+    "name" : "BR Tweetbot"
+  }
+}

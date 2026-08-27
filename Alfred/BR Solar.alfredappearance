@@ -1,0 +1,65 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 7,
+      "subtext" : {
+        "size" : 12,
+        "colorSelected" : "#FFD36BFF",
+        "font" : "SF Compact Rounded",
+        "color" : "#98CC988C"
+      },
+      "shortcut" : {
+        "size" : 17,
+        "colorSelected" : "#EAEAEAFF",
+        "font" : "SF Pro Rounded Medium",
+        "color" : "#F27779FF"
+      },
+      "backgroundSelected" : "#2B3E50B2",
+      "text" : {
+        "size" : 26,
+        "colorSelected" : "#FDFDFDFF",
+        "font" : "SF Pro Rounded",
+        "color" : "#FDFDFD7F"
+      },
+      "iconPaddingHorizontal" : 6,
+      "roundness" : 5,
+      "paddingVertical" : 4,
+      "iconSize" : 36
+    },
+    "search" : {
+      "backgroundSelected" : "#B2D7FFFF",
+      "paddingHorizontal" : 16,
+      "spacing" : 10,
+      "text" : {
+        "size" : 36,
+        "colorSelected" : "#000000FF",
+        "font" : "SF Pro Rounded",
+        "color" : "#FDFDFDFF"
+      },
+      "background" : "#090E1259",
+      "roundness" : 5,
+      "paddingVertical" : 4
+    },
+    "window" : {
+      "color" : "#2B3E50FF",
+      "paddingHorizontal" : 10,
+      "width" : 554,
+      "borderPadding" : 0,
+      "borderColor" : "#34495EFF",
+      "blur" : 0,
+      "roundness" : 5,
+      "paddingVertical" : 10
+    },
+    "credit" : "Bryan Smith",
+    "visualEffectMode" : 2,
+    "separator" : {
+      "color" : "#2B3E509E",
+      "thickness" : 3
+    },
+    "scrollbar" : {
+      "color" : "#6698CCFF",
+      "thickness" : 3
+    },
+    "name" : "BR Solar"
+  }
+}

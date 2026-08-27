@@ -1,0 +1,65 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 5,
+      "subtext" : {
+        "size" : 10,
+        "colorSelected" : "#EAEAEAF2",
+        "font" : "System",
+        "color" : "#EAEAEA59"
+      },
+      "shortcut" : {
+        "size" : 16,
+        "colorSelected" : "#FFFFFFFF",
+        "font" : "System",
+        "color" : "#EAEAEA7F"
+      },
+      "backgroundSelected" : "#BF081D59",
+      "text" : {
+        "size" : 20,
+        "colorSelected" : "#FFFFFFFF",
+        "font" : "System",
+        "color" : "#EAEAEAFF"
+      },
+      "iconPaddingHorizontal" : 7,
+      "roundness" : 6,
+      "paddingVertical" : 7,
+      "iconSize" : 40
+    },
+    "search" : {
+      "backgroundSelected" : "#B3D7FFFF",
+      "paddingHorizontal" : 8,
+      "spacing" : 6,
+      "text" : {
+        "size" : 36,
+        "colorSelected" : "#000000FF",
+        "font" : "System",
+        "color" : "#ECEBEDFF"
+      },
+      "background" : "#1E242EFF",
+      "roundness" : 6,
+      "paddingVertical" : 9
+    },
+    "window" : {
+      "color" : "#252C35E4",
+      "paddingHorizontal" : 5,
+      "width" : 400,
+      "borderPadding" : 0,
+      "borderColor" : "#0000007F",
+      "blur" : 0,
+      "roundness" : 6,
+      "paddingVertical" : 6
+    },
+    "credit" : "Bryan Smith",
+    "visualEffectMode" : 2,
+    "separator" : {
+      "color" : "#CBCBCBF3",
+      "thickness" : 0
+    },
+    "scrollbar" : {
+      "color" : "#FAFAFAFF",
+      "thickness" : 2
+    },
+    "name" : "BR Gamecocks"
+  }
+}

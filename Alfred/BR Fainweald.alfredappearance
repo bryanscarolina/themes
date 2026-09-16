@@ -1,0 +1,65 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 6,
+      "subtext" : {
+        "size" : 10,
+        "colorSelected" : "#4447CDFF",
+        "font" : "System",
+        "color" : "#1D22284D"
+      },
+      "shortcut" : {
+        "size" : 16,
+        "colorSelected" : "#E93824EA",
+        "font" : "System",
+        "color" : "#4B72C9E5"
+      },
+      "backgroundSelected" : "#DDEAFCBF",
+      "text" : {
+        "size" : 24,
+        "colorSelected" : "#1D2228FF",
+        "font" : "System",
+        "color" : "#1D22287F"
+      },
+      "iconPaddingHorizontal" : 10,
+      "roundness" : 8,
+      "paddingVertical" : 8,
+      "iconSize" : 40
+    },
+    "search" : {
+      "backgroundSelected" : "#557DDAFF",
+      "paddingHorizontal" : 10,
+      "spacing" : 0,
+      "text" : {
+        "size" : 36,
+        "colorSelected" : "#FAFAFAFF",
+        "font" : "System",
+        "color" : "#1D2228FF"
+      },
+      "background" : "#FAFAFAFF",
+      "roundness" : 10,
+      "paddingVertical" : 10
+    },
+    "window" : {
+      "color" : "#FAFAFAFF",
+      "paddingHorizontal" : 6,
+      "width" : 469,
+      "borderPadding" : 0,
+      "borderColor" : "#CBCBCBF3",
+      "blur" : 0,
+      "roundness" : 8,
+      "paddingVertical" : 8
+    },
+    "credit" : "Bryan Smith",
+    "visualEffectMode" : 1,
+    "separator" : {
+      "color" : "#FAFAFAFF",
+      "thickness" : 0
+    },
+    "scrollbar" : {
+      "color" : "#E93824EA",
+      "thickness" : 3
+    },
+    "name" : "BR Fainweald"
+  }
+}
